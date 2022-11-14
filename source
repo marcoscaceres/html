@@ -75631,7 +75631,7 @@ END:VCARD</pre>
       <dt>Screen orientation</dt>
       <dd>
        <p>If <var>visibilityState</var> is "visible", run the <span>screen orientation change
-       steps</var> with <var>document</var>. <ref spec=SCREENORIENTATION></p>
+       steps</span> with <var>document</var>. <ref spec=SCREENORIENTATION></p>
       </dd>
     </dl>
 
