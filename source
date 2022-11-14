@@ -4285,6 +4285,14 @@ a.setAttribute('href', 'https://example.com/'); // change the content attribute 
     </ul>
    </dd>
 
+   <dt>Screen orientation</dt>
+   <dd>
+    <p>The following terms are defined in <cite>Screen Orientation</cite>: <ref spec=SCREENORIENTATION></p>
+
+    <ul>
+     <li><dfn data-x-href="https://www.w3.org/TR/screen-orientation/#dfn-screen-orientation-change-steps">screen orientation change steps</dfn></li>
+    </ul>
+
    <dt>Storage</dt>
    <dd>
     <p>The following terms are defined in <cite>Storage</cite>: <ref spec=STORAGE></p>
@@ -75619,6 +75627,14 @@ END:VCARD</pre>
    <var>visibilityState</var>.</p></li>
 
    <li>
+    <dl class="switch">
+      <dt>Screen orientation</dt>
+      <dd>
+       <p>If <var>visibilityState</var> is "visible", run the <span>screen orientation change
+       steps</var> with <var>document</var>. <ref spec=SCREENORIENTATION></p>
+      </dd>
+    </dl>
+
     <p>Run any <dfn export>page visibility change steps</dfn> which may be defined in other
     specifications, with <span>visibility state</span> and <var>document</var>.</p>
 
@@ -75627,8 +75643,8 @@ END:VCARD</pre>
     steps</span> hook, to ensure well-defined cross-specification call order. As of the time of
     this writing the following specifications are known to have <span>page visibility change
     steps</span>, which will be run in an unspecified order: <cite>Device Posture API</cite>,
-    <cite>Screen Orientation API</cite>, and <cite>Web NFC</cite>. <ref spec=DEVICEPOSTURE> <ref
-    spec=SCREENORIENTATION> <ref spec=WEBNFC></p>
+    <cite>Screen Orientation API</cite>, and <cite>Web NFC</cite>. <ref spec=DEVICEPOSTURE>
+    <ref spec=WEBNFC></p>
    </li>
 
    <li><p>Fire an event named <code data-x="event-visibilitychange">visibilitychange</code> at
@@ -131392,7 +131408,7 @@ INSERT INTERFACES HERE
    <dd><cite><a href="https://httpwg.org/specs/rfc8297.html">An HTTP Status Code for Indicating Hints</a></cite>, K. Oku. IETF.</dd>
 
    <dt id="refsSCREENORIENTATION">[SCREENORIENTATION]</dt>
-   <dd><cite><a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a></cite>, M. Lamouri, M. Cáceres. W3C.</dd>
+   <dd><cite><a href="https://www.w3.org/TR/screen-orientation/">Screen Orientation</a></cite>, M. Cáceres. W3C.</dd>
 
    <dt id="refsSCSU">[SCSU]</dt>
    <dd>(Non-normative) <cite><a href="https://www.unicode.org/reports/tr6/">UTR #6: A Standard Compression Scheme For Unicode</a></cite>, M. Wolf, K. Whistler, C. Wicksteed, M. Davis, A. Freytag, M. Scherer. Unicode Consortium.</dd>
