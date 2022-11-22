@@ -4290,7 +4290,7 @@ a.setAttribute('href', 'https://example.com/'); // change the content attribute 
     <p>The following terms are defined in <cite>Screen Orientation</cite>: <ref spec=SCREENORIENTATION></p>
 
     <ul>
-     <li><dfn data-x-href="https://www.w3.org/TR/screen-orientation/#dfn-screen-orientation-change-steps">screen orientation change steps</dfn></li>
+     <li><dfn data-x-href="https://w3c.github.io/screen-orientation//#dfn-screen-orientation-change-steps">screen orientation change steps</dfn></li>
     </ul>
 
    <dt>Storage</dt>
@@ -131403,7 +131403,7 @@ INSERT INTERFACES HERE
    <dd><cite><a href="https://httpwg.org/specs/rfc8297.html">An HTTP Status Code for Indicating Hints</a></cite>, K. Oku. IETF.</dd>
 
    <dt id="refsSCREENORIENTATION">[SCREENORIENTATION]</dt>
-   <dd><cite><a href="https://www.w3.org/TR/screen-orientation/">Screen Orientation</a></cite>, M. Cáceres. W3C.</dd>
+   <dd><cite><a href="https://w3c.github.io/screen-orientation/">Screen Orientation</a></cite>, M. Cáceres. W3C.</dd>
 
    <dt id="refsSCSU">[SCSU]</dt>
    <dd>(Non-normative) <cite><a href="https://www.unicode.org/reports/tr6/">UTR #6: A Standard Compression Scheme For Unicode</a></cite>, M. Wolf, K. Whistler, C. Wicksteed, M. Davis, A. Freytag, M. Scherer. Unicode Consortium.</dd>
