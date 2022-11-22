@@ -75626,15 +75626,11 @@ END:VCARD</pre>
    <li><p>Set <var>document</var>'s <span>visibility state</span> to
    <var>visibilityState</var>.</p></li>
 
-   <li>
-    <dl class="switch">
-      <dt>Screen orientation</dt>
-      <dd>
-       <p>If <var>visibilityState</var> is "visible", run the <span>screen orientation change
-       steps</span> with <var>document</var>. <ref spec=SCREENORIENTATION></p>
-      </dd>
-    </dl>
+   <li><p>Run the <span>screen orientation change steps</span> with <var>document</var>.
+   <ref spec=SCREENORIENTATION></p>
+   </li>
 
+   <li>
     <p>Run any <dfn export>page visibility change steps</dfn> which may be defined in other
     specifications, with <span>visibility state</span> and <var>document</var>.</p>
 
@@ -75643,8 +75639,7 @@ END:VCARD</pre>
     steps</span> hook, to ensure well-defined cross-specification call order. As of the time of
     this writing the following specifications are known to have <span>page visibility change
     steps</span>, which will be run in an unspecified order: <cite>Device Posture API</cite>,
-    <cite>Screen Orientation API</cite>, and <cite>Web NFC</cite>. <ref spec=DEVICEPOSTURE>
-    <ref spec=WEBNFC></p>
+    and <cite>Web NFC</cite>. <ref spec=DEVICEPOSTURE> <ref spec=WEBNFC></p>
    </li>
 
    <li><p>Fire an event named <code data-x="event-visibilitychange">visibilitychange</code> at
